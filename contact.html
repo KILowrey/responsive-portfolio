@@ -37,15 +37,26 @@
         </nav>
     </header>
 
+    <!--contact form/page. works perfect, just need to make it pretty-->
     <main class="container">
-        <section class="row">
+        <section>
             <h1>Contact</h1>
         </section>
         <form>
-            
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Jane Smith">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="messageArea">Message</label>
+                <textarea class="form-control" id="messageArea" rows="6"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
         </form>
-    <!--Form with fill in for Name, Email, Message, and a Submit Button-->
-    <!--https://getbootstrap.com/docs/4.5/components/forms/-->
     </main>
 
 <!--insert footer copied over from index.html-->
