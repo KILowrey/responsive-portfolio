@@ -19,10 +19,13 @@
 
 <body>
 
+    <!--hearder is the navigation bar along the top of the page-->
     <header class="navbar row">
-        <h1 class="navbar-brand mb-0 col-sm-12 col-md-4 col-xl-3 text-center">Kira I Lowrey</h1>
-        <nav>
+        <!--header is outide of the actual navbar class because I don't want it to be a link or anything-->
+        <h1 class="navbar-brand mb-0 col-sm-12 col-md-4 col-xl-3 text-center">Kira I Lowrey</h1> <!--TODO look into updating all the "col"s later--> <!--navbar-brand makes it fit the rest of the nav stuff aesthetically-->
+        <nav> <!--start of actual nav bar. helpful to have seprate aswell for stacking on smaller screens-->
             <ul class="nav text-center">
+                <!--the "disabled" class fades the link if you're on it's page and prevents you from reloading the page when you click it-->
                 <li class="nav-item">
                     <a class="nav-link disabled" href="./index.html">About</a>
                 </li>
@@ -34,16 +37,17 @@
                 </li>
             </ul>
         </nav>
+        <!--add css later to make sure that everything works exactly how it should and also look pretty-->
     </header>
 
-    <meain class="row">
+    <main class="row">
         <section class="row">
             <h1>About Me</h1>
         </section>
         <section class="row">
             <!--insert picture of myself and a bio-->
         </section>
-    </meain>
+    </main>
 
 <!-- deal with sticky footer later using https://css-tricks.com/couple-takes-sticky-footer/ -->
 
