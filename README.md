@@ -14,6 +14,8 @@ Try changing the size of your screen to see how the website adapts
 
 ## Credits
 
+Color Palette from [colorpalettes.net](https://colorpalettes.net/color-palette-1398/)
+
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
 ## License

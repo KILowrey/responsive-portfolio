@@ -2,8 +2,38 @@
 
 /* use h1 for the page titles so they can all be styled the same. use h2 for social sidebar. use h3 for the image labels. */
 
-/* have navbar-brand styling below the general h1 styling */
+/* just getting things down right now. will reorder everything to be more organized later */
+
+/* general style */
+body {
+    background-color: #cddba7;
+    color: gray;
+}
+
+/* header along the top of all the pages*/
+header {
+    background-color: #f9fafd;
+}
+
+/* title for each page */
+h1 {
+    color: #7d9253;
+}
+
+/* my name along the top of the page. needs to be below the general h1 tag*/
+header h1 {
+    background-color: #7d9253;
+    color: #f9f9f9;
+}
+
+/* the main section of the webpage */
+.container {
+    background-color: #f9fafd;
+    max-width: 800px;
+    float: left;
+}
 
 #aboutPhoto {
     width: 500px;
+    /* maybe change size later, or make it a mediaquery? It's good enough for now */
 }
