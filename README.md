@@ -19,3 +19,9 @@ Try changing the size of your screen to see how the website adapts
 ## License
 
 figure out a license
+
+## notes from TA
+
+inclued a link to the published github pages in readme.md
+
+possibly include image of the deplyoed website in readme.md?
