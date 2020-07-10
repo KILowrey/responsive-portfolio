@@ -4,3 +4,6 @@
 
 /* have navbar-brand styling below the general h1 styling */
 
+#aboutPhoto {
+    width: 500px;
+}
