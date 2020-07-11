@@ -16,6 +16,10 @@ Try changing the size of your screen to see how the website adapts
 
 Color Palette from [colorpalettes.net](https://colorpalettes.net/color-palette-1398/)
 
+Socail media icons taken from [shivjisakina on GitHub](https://github.com/shivjisakina)
+
+Some code layout inspired by [rmglennon on GitHub](https://github.com/rmglennon)
+
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
 ## License
