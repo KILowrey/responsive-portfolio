@@ -37,29 +37,35 @@
         </nav>
     </header>
 
-    <!--contact form/page. works perfect, just need to make it pretty-->
-    <main class="container">
-        <section>
-            <h1>Contact</h1>
+<!--contact form/page. works perfect, just need to make it pretty-->
+<main class="container">
+    <div class="row">
+        <section class="col-md-8 main-section">
+            <h1>Contact</h1> 
+            <form>
+                <div class="form-group">
+                    <label for="inputName">Name</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Jane Smith">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="messageArea">Message</label>
+                    <textarea class="form-control" id="messageArea" rows="6"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </section>
-        <form>
-            <section class="form-group">
-                <label for="inputName">Name</label>
-                <input type="text" class="form-control" id="inputName" placeholder="Jane Smith">
-            </section>
-            <section class="form-group">
-                <label for="inputEmail">Email</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com">
-            </section>
-            <section class="form-group">
-                <label for="messageArea">Message</label>
-                <textarea class="form-control" id="messageArea" rows="6"></textarea>
-            </section>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-    </main>
-
-    <!--copy over aside sidebar from index.html-->
+        <section class="col-md-3 col-md-offset-1 sidebar">
+            <h2>Connect with Me</h2>
+            <a href="#"><img class="social img-responsive" src="./assets/socialicons/github-icon.png" alt="GitHub icon" /></a>
+            <a href="#"><img class="social img-responsive" src="./assets/socialicons/linkedin-icon.png" alt="LinkedIn icon" /></a>
+            <a href="#"><img class="social img-responsive" src="./assets/socialicons/stackoverflow-icon.png" alt="StackOverflow icon" /></a>
+        </section>
+    </div>
+</main>
 
 <!--insert footer copied over from index.html-->
 

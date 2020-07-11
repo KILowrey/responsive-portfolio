@@ -27,7 +27,7 @@ header h1 {
 }
 
 /* the main section of the webpage */
-.container {
+.container section {
     background-color: #f9fafd;
     max-width: 800px;
     float: left;
