@@ -24,7 +24,8 @@
         <!--header is outide of the actual navbar class because I don't want it to be a link or anything-->
         <!--grows infinetly so fix that-->
         <h1 class="navbar-brand mb-0 col-sm-12 col-md-4 col-xl-3 text-center">Kira I Lowrey</h1> <!--TODO look into updating all the "col"s later--> <!--navbar-brand makes it fit the rest of the nav stuff aesthetically-->
-        <nav> <!--start of actual nav bar. helpful to have seprate aswell for stacking on smaller screens-->
+        <!--start of actual nav bar. helpful to have seprate aswell for stacking on smaller screens-->
+        <nav>
             <ul class="nav text-center">
                 <!--the "disabled" class fades the link if you're on it's page and prevents you from reloading the page when you click it-->
                 <li class="nav-item">
@@ -39,23 +40,34 @@
             </ul>
         </nav>
         <!--add css later to make sure that everything works exactly how it should and also look pretty-->
-    </header>
+    </header> <!--End of Header/Navbar-->
 
+<!--contains the main section and the social section in a managable area-->
 <main class="container">
+    <!--even if you only have one row, you still need to contain your columns inside a row-->
     <div class="row">
+        <!--the true main section-->
         <section class="col-md-8 main-section">
+            <!--title of the About Me page-->
             <h1>About Me</h1>
+            <!--profile pic-->
             <img src="./assets/KIL-with-a-horse.JPG" id="aboutPhoto" alt="Kira Lowrey on one knee in an open area petting a minature horse">
+            <!--biography. fill in later-->
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum dolor ipsa, asperiores minima, earum sequi facere assumenda voluptate, repellat dignissimos amet modi perspiciatis eligendi eum. Quos, deleniti nobis tenetur beatae iure mollitia iste autem veritatis aspernatur! Officiis aliquam rerum impedit voluptas possimus cum debitis, maiores suscipit dicta ea nesciunt cumque quod laborum voluptate, unde animi, quaerat nobis sunt eaque! Id expedita laudantium iste eum eaque tenetur voluptatem quia nam, accusantium nobis. Quidem mollitia non quis.</p>
-        </section>
+        </section> <!--end of main section-->
+        <!--socail side bar. Thanks to being in the main container it will be to the side when big and below when small-->
         <section class="col-md-3 col-md-offset-1 sidebar">
+            <!--title for sidebar-->
             <h2>Connect with Me</h2>
+            <!--GitHub Profile Link-->
             <a href="https://github.com/KILowrey"><img class="social img-responsive" src="./assets/socialicons/github-icon.png" alt="GitHub icon" /></a>
+            <!--LinkedIn Profile Link-->
             <a href="https://www.linkedin.com/in/kira-lowrey-209533171/"><img class="social img-responsive" src="./assets/socialicons/linkedin-icon.png" alt="LinkedIn icon" /></a>
+            <!--StackOverflow Profile Link-->
             <a href="https://stackoverflow.com/users/13537503/kira-i-lowrey"><img class="social img-responsive" src="./assets/socialicons/stackoverflow-icon.png" alt="StackOverflow icon" /></a>
-        </section>
+        </section> <!--end of sidebar-->
     </div>
-</main>
+</main> <!--end of main container-->
 
 <!-- deal with sticky footer later using https://css-tricks.com/couple-takes-sticky-footer/ -->
 

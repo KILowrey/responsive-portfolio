@@ -20,6 +20,8 @@ Socail media icons taken from [shivjisakina on GitHub](https://github.com/shivji
 
 Some code layout inspired by [rmglennon on GitHub](https://github.com/rmglennon)
 
+Images in Portfolio found on Google Images under "Labeld for Reuse".
+
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
 ## License

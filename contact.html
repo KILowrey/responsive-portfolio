@@ -19,9 +19,12 @@
 
 <body>
 
-    <!--header is the same as in index/html (except for the "disabled" class) make sure to update this header as you update the one in index.html-->
+    <!--hearder is the navigation bar along the top of the page-->
     <header class="navbar row">
-        <h1 class="navbar-brand mb-0 col-sm-12 col-md-4 col-xl-3 text-center">Kira I Lowrey</h1>
+        <!--header is outide of the actual navbar class because I don't want it to be a link or anything-->
+        <!--grows infinetly so fix that-->
+        <h1 class="navbar-brand mb-0 col-sm-12 col-md-4 col-xl-3 text-center">Kira I Lowrey</h1>  <!--TODO look into updating all the "col"s later--> <!--navbar-brand makes it fit the rest of the nav stuff aesthetically-->
+        <!--start of actual nav bar. helpful to have seprate aswell for stacking on smaller screens-->
         <nav>
             <ul class="nav text-center">
                 <li class="nav-item">
@@ -30,42 +33,59 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./portfolio.html">Portfolio</a>
                 </li>
+                <!--the "disabled" class fades the link if you're on it's page and prevents you from reloading the page when you click it-->
                 <li class="nav-item">
                     <a class="nav-link disabled" href="./contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
-    </header>
+        <!--add css later to make sure that everything works exactly how it should and also look pretty-->
+    </header> <!--End of Header/Navbar-->
 
 <!--contact form/page. works perfect, just need to make it pretty-->
+<!--contains the main section and the social section in a managable area-->
 <main class="container">
+    <!--even if you only have one row, you still need to contain your columns inside a row-->
     <div class="row">
+        <!--the true main section-->
         <section class="col-md-8 main-section">
+            <!--title of the Contact page-->
             <h1>Contact</h1> 
+            <!--form for the contact page. bootstrap-->
             <form>
+                <!--the id's connect the labels and the inputs-->
                 <div class="form-group">
+                    <!--Text box for visitor to fill in name-->
                     <label for="inputName">Name</label>
                     <input type="text" class="form-control" id="inputName" placeholder="Jane Smith">
                 </div>
                 <div class="form-group">
+                    <!--text box for visitors to fill in their email-->
                     <label for="inputEmail">Email</label>
                     <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com">
                 </div>
                 <div class="form-group">
+                    <!--text box for visitors to write out their message-->
                     <label for="messageArea">Message</label>
                     <textarea class="form-control" id="messageArea" rows="6"></textarea>
                 </div>
+                <!--Button for Submitting. this button (for the time being) does not actually connect anywhere, but does clear the boxes.-->
                 <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </section>
+            </form> <!--end of contact Form-->
+        </section> <!--end of main section-->
+        <!--socail side bar. Thanks to being in the main container it will be to the side when big and below when small-->
         <section class="col-md-3 col-md-offset-1 sidebar">
+            <!--title for sidebar-->
             <h2>Connect with Me</h2>
+            <!--GitHub Profile Link-->
             <a href="https://github.com/KILowrey"><img class="social img-responsive" src="./assets/socialicons/github-icon.png" alt="GitHub icon" /></a>
+            <!--LinkedIn Profile Link-->
             <a href="https://www.linkedin.com/in/kira-lowrey-209533171/"><img class="social img-responsive" src="./assets/socialicons/linkedin-icon.png" alt="LinkedIn icon" /></a>
+            <!--StackOverflow Profile Link-->
             <a href="https://stackoverflow.com/users/13537503/kira-i-lowrey"><img class="social img-responsive" src="./assets/socialicons/stackoverflow-icon.png" alt="StackOverflow icon" /></a>
-        </section>
+        </section> <!--end of sidebar-->
     </div>
-</main>
+</main> <!--end of main container-->
 
 <!--insert footer copied over from index.html-->
 

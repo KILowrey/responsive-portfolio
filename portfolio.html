@@ -19,14 +19,18 @@
 
 <body>
 
-    <!--header is the same as in index/html (except for the "disabled" class) make sure to update this header as you update the one in index.html-->
+    <!--hearder is the navigation bar along the top of the page-->
     <header class="navbar row">
-        <h1 class="navbar-brand mb-0 col-sm-12 col-md-4 col-xl-3 text-center">Kira I Lowrey</h1>
+        <!--header is outide of the actual navbar class because I don't want it to be a link or anything-->
+        <!--grows infinetly so fix that-->
+        <h1 class="navbar-brand mb-0 col-sm-12 col-md-4 col-xl-3 text-center">Kira I Lowrey</h1>  <!--TODO look into updating all the "col"s later--> <!--navbar-brand makes it fit the rest of the nav stuff aesthetically-->
+        <!--start of actual nav bar. helpful to have seprate aswell for stacking on smaller screens-->
         <nav>
             <ul class="nav text-center">
                 <li class="nav-item">
                     <a class="nav-link" href="./index.html">About</a>
                 </li>
+                <!--the "disabled" class fades the link if you're on it's page and prevents you from reloading the page when you click it-->
                 <li class="nav-item">
                     <a class="nav-link disabled" href="./portfolio.html">Portfolio</a>
                 </li>
@@ -35,43 +39,61 @@
                 </li>
             </ul>
         </nav>
-    </header>
+        <!--add css later to make sure that everything works exactly how it should and also look pretty-->
+    </header> <!--End of Header/Navbar-->
 
+<!--contains the main section and the social section in a managable area-->
 <main class="container">
+    <!--even if you only have one row, you still need to contain your columns inside a row-->
     <div class="row">
+        <!--the true main section-->
         <section class="col-md-8 main-section">
+            <!--title of the Protfolio page-->
             <h1>Portfolio</h1>
-            <div id="portfolio-deck">
+            <!--a card is a floxible and estensible content container -getbootstrap.com-->
+            <!--would use "card-deck" but those are non responive so I have to do it mainually in mediaqueries-->
+            <div id="portfolio-deck"> <!--TODO: sort the shit out of this in style and mediaqueries cause right now it's a hot mess!!!-->
+                <!--"Word Guess" Card-->
                 <div class="card">
                     <img class="card-img" src="./assets/portfoliopics/WordGuess.jpg" alt="a pile of Scrabble tiles" />
                     <h3 class="card-img-overlay">Word Guess</h3>
                 </div>
+                <!--"RPG Game" Card-->
                 <div class="card">
                     <img class="card-img" src="./assets/portfoliopics/RPGGame.jpg" alt="dice scattered on a character sheet" />
                     <h3 class="card-img-overlay">RPG Game</h3>
                 </div>
+                <!--"Triva Game" Card-->
                 <div class="card">
                     <img class="card-img" src="./assets/portfoliopics/TriviaGame.jpg" alt="a Trivial Pursuit board" />
                     <h3 class="card-img-overlay">Trivia Game</h3>
                 </div>
+                <!--"Info Widget" Card-->
                 <div class="card">
                     <img class="card-img" src="./assets/portfoliopics/InfoWidget.jpg" alt="a close up of a phone and earbuds" />
                     <h3 class="card-img-overlay">Info Widget</h3>
                 </div>
+                <!--"Rock Paper Scissors" Card-->
                 <div class="card">
                     <img class="card-img" src="./assets/portfoliopics/RockPaperScissors.jpg" alt="rock paper scissors" />
                     <h3 class="card-img-overlay">Rock Paper Scissors</h3>
                 </div>
+                <!--These are all placeholders for now. They are for activities that will be completeld in/for class later-->
             </div>
-        </section>
+        </section> <!--end of main section-->
+        <!--socail side bar. Thanks to being in the main container it will be to the side when big and below when small-->
         <section class="col-md-3 col-md-offset-1 sidebar">
+            <!--title for sidebar-->
             <h2>Connect with Me</h2>
+            <!--GitHub Profile Link-->
             <a href="https://github.com/KILowrey"><img class="social img-responsive" src="./assets/socialicons/github-icon.png" alt="GitHub icon" /></a>
+            <!--LinkedIn Profile Link-->
             <a href="https://www.linkedin.com/in/kira-lowrey-209533171/"><img class="social img-responsive" src="./assets/socialicons/linkedin-icon.png" alt="LinkedIn icon" /></a>
+            <!--StackOverflow Profile Link-->
             <a href="https://stackoverflow.com/users/13537503/kira-i-lowrey"><img class="social img-responsive" src="./assets/socialicons/stackoverflow-icon.png" alt="StackOverflow icon" /></a>
-        </section>
+        </section> <!--end of sidebar-->
     </div>
-</main>
+</main> <!--end of main container-->
 
 <!--insert footer copied over from index.html-->
 
