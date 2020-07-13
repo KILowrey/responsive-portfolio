@@ -31,7 +31,3 @@ header h1 {
     background-color: #f9fafd;
 }
 
-#aboutPhoto {
-    width: 500px;
-    /* maybe change size later, or make it a mediaquery? It's good enough for now */
-}

@@ -5,11 +5,26 @@
 
 /* NAVBAR */
 
-header .navbar {
+header {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar-brand {
+    padding: 15px;
+    margin: 0px;
+}
+
+nav {
     padding: 0px;
 }
 
 /* MAIN SECTION */
+
 .container section {
     padding: 20px;
     margin: 20px;
@@ -18,6 +33,10 @@ header .navbar {
 
 .main-section {
     max-width: 700px;
+}
+
+#aboutPhoto {
+    width: 375px;
 }
 
 /* SIDEBAR */
