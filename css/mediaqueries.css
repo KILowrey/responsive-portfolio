@@ -2,3 +2,37 @@
 
 /* the sameple dimentions are 640, 768, and 980 */
 
+
+/* NAVBAR */
+
+header .navbar {
+    padding: 0px;
+}
+
+/* MAIN SECTION */
+.container section {
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+
+.main-section {
+    max-width: 700px;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    max-height: 200px;
+    min-width: 300px;
+}
+
+.sidebar h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.sidebar a img {
+    max-width: 75px;
+}
+
