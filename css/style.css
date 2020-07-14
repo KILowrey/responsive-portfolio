@@ -1,9 +1,3 @@
-/* styel.css for responsive protfolio. This is about STYLE! MediaQueries are seperate because I said so */
-
-/* use h1 for the page titles so they can all be styled the same. use h2 for social sidebar. use h3 for the image labels. */
-
-/* just getting things down right now. will reorder everything to be more organized later */
-
 /* general style */
 body {
     background-color: #cddba7;
@@ -13,6 +7,22 @@ body {
 /* header along the top of all the pages*/
 header {
     background-color: #f9fafd;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar-brand {
+    padding: 15px;
+    margin: 0px;
+}
+
+nav {
+    padding: 0px;
+    /* make the navbar stay centered when it's small */
 }
 
 /* title for each page */
@@ -29,5 +39,69 @@ header h1 {
 /* the main section of the webpage */
 .container section {
     background-color: #f9fafd;
+    padding: 20px;
+    margin: 20px;
 }
 
+.main-section {
+    max-width: 700px;
+}
+
+#aboutPhoto {
+    max-width: 375px;
+    margin: 20px;
+}
+
+.sidebar {
+    max-height: 200px;
+    min-width: 300px;
+}
+
+.sidebar h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.sidebar a img {
+    max-width: 75px;
+}
+
+#portfolio-deck {
+    border: 5px solid greenyellow;
+    column-count: 2;
+}
+
+.card {
+    margin: 10px;
+    width: 18rem;
+}
+
+.card-img-overlay {
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+a {
+    color: #7d9253;
+}
+
+footer {
+    background-color: lightgray;
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+}
+
+footer p {
+    color: #7d9253;
+}

@@ -25,8 +25,8 @@
         <!--grows infinetly so fix that-->
         <h1 class="navbar-brand col-sm-12 col-md-3 col-xl-2 text-center">Kira I Lowrey</h1>  <!--TODO look into updating all the "col"s later--> <!--navbar-brand makes it fit the rest of the nav stuff aesthetically-->
         <!--start of actual nav bar. helpful to have seprate aswell for stacking on smaller screens-->
-        <nav>
-            <ul class="nav text-center">
+        <nav class="col-md-6 col-sm-12" >
+            <ul class="nav justify-content-md-end justify-content-sm-center">
                 <li class="nav-item">
                     <a class="nav-link" href="./index.html">About</a>
                 </li>
@@ -47,42 +47,42 @@
     <!--even if you only have one row, you still need to contain your columns inside a row-->
     <div class="row">
         <!--the true main section-->
-        <section class="col-md-8 main-section rounded">
+        <section class="col-md-8 main-section float-left rounded">
             <!--title of the Protfolio page-->
             <h1>Portfolio</h1>
             <!--a card is a floxible and estensible content container -getbootstrap.com-->
             <!--would use "card-deck" but those are non responive so I have to do it mainually in mediaqueries-->
-            <div id="portfolio-deck"> <!--TODO: sort the shit out of this in style and mediaqueries cause right now it's a hot mess!!!-->
+            <div id="portfolio-deck" class="justify-content-around"> <!--TODO: sort the shit out of this in style and mediaqueries cause right now it's a hot mess!!!-->
                 <!--"Word Guess" Card-->
                 <div class="card">
                     <img class="card-img" src="./images/portfoliopics/WordGuess.jpg" alt="a pile of Scrabble tiles" />
-                    <h3 class="card-img-overlay">Word Guess</h3>
+                    <h3 class="card-img-overlay stretched-link text-light">Word Guess</h3>
                 </div>
                 <!--"RPG Game" Card-->
                 <div class="card">
                     <img class="card-img" src="./images/portfoliopics/RPGGame.jpg" alt="dice scattered on a character sheet" />
-                    <h3 class="card-img-overlay">RPG Game</h3>
+                    <h3 class="card-img-overlay stretched-link text-light">RPG Game</h3>
                 </div>
                 <!--"Triva Game" Card-->
                 <div class="card">
                     <img class="card-img" src="./images/portfoliopics/TriviaGame.jpg" alt="a Trivial Pursuit board" />
-                    <h3 class="card-img-overlay">Trivia Game</h3>
+                    <h3 class="card-img-overlay stretched-link text-light">Trivia Game</h3>
                 </div>
                 <!--"Info Widget" Card-->
                 <div class="card">
                     <img class="card-img" src="./images/portfoliopics/InfoWidget.jpg" alt="a close up of a phone and earbuds" />
-                    <h3 class="card-img-overlay">Info Widget</h3>
+                    <h3 class="card-img-overlay stretched-link text-light">Info Widget</h3>
                 </div>
                 <!--"Rock Paper Scissors" Card-->
                 <div class="card">
                     <img class="card-img" src="./images/portfoliopics/RockPaperScissors.jpg" alt="rock paper scissors" />
-                    <h3 class="card-img-overlay">Rock Paper Scissors</h3>
+                    <h3 class="card-img-overlay stretched-link text-light">Rock Paper Scissors</h3>
                 </div>
                 <!--These are all placeholders for now. They are for activities that will be completeld in/for class later-->
             </div>
         </section> <!--end of main section-->
         <!--socail side bar. Thanks to being in the main container it will be to the side when big and below when small-->
-        <section class="col-md-3 col-md-offset-1 sidebar rounded">
+        <section class="col-md-3 col-md-offset-1 sidebar float-left rounded">
             <!--title for sidebar-->
             <h2>Connect with Me</h2>
             <!--GitHub Profile Link-->
@@ -95,7 +95,9 @@
     </div>
 </main> <!--end of main container-->
 
-<!--insert footer copied over from index.html-->
+    <footer class="footer justify-content-center">
+        <p class="text-center footer-cooyright">© 2020 Kira Lowrey</p>
+    </footer>
 
 </body>
 
