@@ -2,7 +2,9 @@
 
 ## Unit 02 CSS and Bootstrap Homework
 
-insert description of the project per the good readme guide in week one gitlab repository
+In this project, the goal was to create a responsive portolio for oneself. Bootstrap was a required component of this portfolio. This project still has many tiny kinks that need to be worked out.
+
+The biggest problem in this project has been portfolio.html. Getting the cards to work as expected has proved quite a challenge for not only me, but my tutor as well.
 
 ## Installation
 
