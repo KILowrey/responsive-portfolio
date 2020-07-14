@@ -6,6 +6,10 @@ In this project, the goal was to create a responsive portolio for oneself. Boots
 
 The biggest problem in this project has been portfolio.html. Getting the cards to work as expected has proved quite a challenge for not only me, but my tutor as well.
 
+[https://kilowrey.github.io/responsive-portfolio/](https://kilowrey.github.io/responsive-portfolio/)
+
+![screenshot of the home page](./Images/PicForREADME.png "Example image of website")
+
 ## Installation
 
 There should be no required installation for this project
@@ -29,9 +33,3 @@ Images in Portfolio found on Google Images under "Labeld for Reuse".
 ## License
 
 GNU General Public License v3.0
-
-## notes from TA
-
-inclued a link to the published github pages in readme.md
-
-possibly include image of the deplyoed website in readme.md?
