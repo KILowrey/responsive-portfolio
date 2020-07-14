@@ -26,7 +26,7 @@ Images in Portfolio found on Google Images under "Labeld for Reuse".
 
 ## License
 
-figure out a license
+GNU General Public License v3.0
 
 ## notes from TA
 
