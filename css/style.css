@@ -66,13 +66,14 @@ header h1 {
     max-width: 75px;
 }
 
-#portfolio-deck {
-    /*column-count: 2;*/
-}
-
 .card {
     margin: 10px;
-    width: 18rem;
+    width: 16rem;
+}
+
+.card-img {
+    width: 16rem;
+    height: 10rem;
 }
 
 .card-img-overlay {
@@ -81,7 +82,7 @@ header h1 {
 }
 
 .card h3 {
-    width: 100%;
+    width: 16rem;
     top: 40px;
     position: absolute;
     background: #cddba7;
