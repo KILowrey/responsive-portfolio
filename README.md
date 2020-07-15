@@ -8,7 +8,7 @@ The biggest problem in this project has been portfolio.html. Getting the cards t
 
 [https://kilowrey.github.io/responsive-portfolio/](https://kilowrey.github.io/responsive-portfolio/)
 
-![screenshot of the home page](./Images/PicForREADME.png "Example image of website")
+![screenshot of the home page](./Images/PicForREADME.PNG "Example image of website")
 
 ## Installation
 
